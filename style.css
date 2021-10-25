@@ -6,8 +6,6 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 body {
   --black: hsl(240, 6%, 13%);
@@ -82,7 +80,7 @@ ul {
   gap: 0.5rem;
   justify-content: center;
 }
-li:houver{
+li:houver {
   color: aqua;
 }
 
@@ -126,6 +124,8 @@ li:houver{
     background-color: var(--black);
     display: grid;
     place-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
   main {
     background: url(img/cracha.svg) no-repeat center/cover;
@@ -161,6 +161,8 @@ li:houver{
     background-color: var(--black);
     display: grid;
     place-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
   main {
     background: url(img/cracha.svg) no-repeat center/cover;
